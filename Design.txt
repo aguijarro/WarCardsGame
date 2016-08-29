@@ -1,0 +1,17 @@
+Reflect on Your Design
+----------------------
+
+What additional properties did you add to your models and why?
+
+The most important change in my model is the inclusion of ndb.StructuredProperty
+to save a deck of cards and history. I chose this option because it allow me to
+save an array of objects which help me to resolve the game logic.
+
+What were some of the trade-offs or struggles you faced when implementing the new
+game logic?
+
+Add a StructuredProperty had an important level of difficult bacause I didn't know how
+to interact those values.
+
+Other problem was related to the design of database. For example,  when is better to use a relationship
+between kinds or when you should include one kind as property of the other kind.
